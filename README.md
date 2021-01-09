@@ -1,12 +1,13 @@
 # Interrogate Petrophysical log data using Python's Interactive Altair
-The objective of this repository is take advantage of Geolog's powerful python loglan capabilities to interrogate Petrophysical log data using python's interactive Altair in Geolog. The use of python in Geolog will allow us to leading-edge data science techniques in Geolog to process, interrogate and interpret out logs.
-The following are some example results using Altair in Geolog using our log data where the data in depth plots, cross plots or histograms can be selected and then the appropriate data for those selected samples are shown in the other plots. 
+The objective of this repository is take advantage of Geolog's powerful python loglan capabilities to interrogate Petrophysical log data. In this example we are using python's interactive Altair in Geolog. The use of python in Geolog will allow us to employ leading-edge Data Science techniques directly in Geolog to process, interrogate and interpret our logs.
+
+The following are some example results using Altair in a Geolog python loglan. From our Geolog well data we are can make depth plots, cross plots or histograms. Data from one plot can be selected and then the same appropriate sample data are shown for those selected samples in the other plots. 
 
 ![Altair_Image](log_analysis_geolog20_ver2.gif)
 
-This is just a simple example where we are only using Altair in Geolog to interrogate the log data to better understand the log data. 
+This is just a simple example where we are only using Altair in Geolog to interrogate the well log data to better understand these data. 
 
-This repository also contains Geolog files and subdirectories typically used in any Geolog project. The Geolog files are loaded in a typical Geolog project format where we have a loglan and data subdirectories. From the loglan subdirectory you would load the Geolog_pandas_example_altair.info loglan code and then use Module Launcher to run this program:
+This repository also contains Geolog files and subdirectories typically used in any Geolog project. The Geolog files can be loaded into a typical Geolog project format where we have loglan and data subdirectories. From the loglan subdirectory you would load the Geolog_pandas_example_altair.info loglan code and then use Module Launcher to run this program:
 
 ![Altair_Image2](Geolog_python_loglan.png)
 
