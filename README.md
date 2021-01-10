@@ -1,8 +1,8 @@
 # Use of Geolog Python Loglan Capabilities to Interrogate Petrophysical Well Log Data using Python's Interactive Altair
 The objective of this repository is take advantage of Geolog's powerful python loglan capabilities to interrogate Petrophysical log data. In this example we are using python's interactive Altair in Geolog. The use of python in Geolog will allow us to employ leading-edge Data Science techniques directly in Geolog to process, interrogate and interpret our logs.
 
-## Example 
-The following is an example using Altair in a Geolog python loglan. From our Geolog well data we are can make depth plots, cross plots or histograms. Data from one plot can be selected and then the same appropriate sample data are shown for those selected samples in the other plots. 
+# Example 
+The following is a simple example of using Altair in a Geolog python loglan. It is not meant to replace any of the great functionality of Geolog, but just serves as an example of programming loglans with python. Using the python loglans found in this repository, from our Geolog well data we are can make depth plots, cross plots or histograms using Altair. Data from one plot can be selected and then the same appropriate sample data are shown for those selected samples in the other plots. 
 
 ![Altair_Image](log_analysis_geolog20_ver2.gif)
 
